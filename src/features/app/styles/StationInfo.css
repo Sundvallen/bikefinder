@@ -1,0 +1,27 @@
+
+.station-info-content {
+  position: absolute;
+  bottom: 50px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 99;
+  background-color: white;
+  width: 80%;
+
+}
+.station-info {
+  margin-bottom: 40px;
+
+}
+
+.station-info__name {
+	margin-top: 10px;
+}
+
+.station-info__button {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	/* background-color: white; */
+}

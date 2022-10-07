@@ -1,0 +1,59 @@
+/* Setting up scroll overflow */
+.list-container {
+  position: absolute;
+  z-index: 99;
+  transition: all 0.4s ease-out;
+  background-color: white;
+  width: 75vw;
+  left: -100vw;
+  padding-top: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.example::-webkit-scrollbar {
+  display: none;
+}
+/* ui list (each child in this is an item) */
+.list-container div div {
+  position: relative;
+  background-color: white;
+}
+/* END */
+
+.list-item-container {
+  padding: 0 !important;
+}
+
+.list-item-container:last-child {
+  margin-bottom: 40px;
+}
+
+.list-item {
+  padding-bottom: 10px;
+}
+
+.list-item-content {
+  width: 100% !important;
+}
+
+.freeBikes {
+  padding-left: 2.5rem !important;
+}
+
+.free-bikes {
+  color: rgb(14, 167, 14);
+}
+
+.no-free-bikes {
+  color: rgb(107, 107, 107);
+}
+
+/* 
+  .list-container
+    div
+      .ui list
+        .station-list item
+*/
