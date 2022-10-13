@@ -17,7 +17,9 @@
 
 
 # misc
-/public
+bundle.css
+bundle.js
+bundle.js.map
 .DS_Store
 .env.local
 .env.development.local

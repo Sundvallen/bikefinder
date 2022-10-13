@@ -20,7 +20,7 @@ import { State } from "../../types/appSlice";
 import { MapPin } from "phosphor-react";
 
 // Api key
-import token from "../../../mapboxToken";
+import token from "../../mapboxToken";
 const ACCESS_TOKEN = token;
 
 const Map = () => {
